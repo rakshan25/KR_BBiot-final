@@ -402,8 +402,8 @@
 # os.makedirs(output_directory, exist_ok=True)
 #
 # # S3 client initialization
-# AWS_ACCESS_KEY = os.getenv('AKIAZDKNPWASTTSYBFWN')
-# AWS_SECRET_KEY = os.getenv('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')
+# AWS_ACCESS_KEY = os.getenv('AWS_ACCESS_KEY_ID')
+# AWS_SECRET_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 # BUCKET_NAME = 'ubuntu20'
 #
 # s3 = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY)
@@ -554,8 +554,8 @@
 # os.makedirs(output_directory, exist_ok=True)
 #
 # # S3 client initialization
-# AWS_ACCESS_KEY = os.getenv('AKIAZDKNPWASTTSYBFWN')
-# AWS_SECRET_KEY = os.getenv('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')
+# AWS_ACCESS_KEY = os.getenv('AWS_ACCESS_KEY_ID')
+# AWS_SECRET_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 # BUCKET_NAME = 'ubuntu20'
 #
 # s3 = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY)
